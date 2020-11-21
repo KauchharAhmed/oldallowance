@@ -1,0 +1,25 @@
+#password_input{
+	width: 245px!important;
+	margin-left: 10px;
+}
+
+.activeDeactive{
+	display: none ;
+}
+
+@media screen and (max-width: 400px) {
+	#password_input{
+		width: 245px!important;
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.developer{
+		margin-top: 10px;
+	}
+
+	#loginPagelogo{
+		width: 50% !important;
+		height: auto;
+	}
+}
